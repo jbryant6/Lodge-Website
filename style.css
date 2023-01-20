@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    background: #DFD99C;
+    color: #2F4277;
+}
+
+#mainNav {
+    background: #2F4277;
+    color: #DFD99C;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    text-align: right;
+}
+
+#mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#mainNav li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+#mainNav a {
+    color: #DFD99C;
+    text-decoration: none;
+}
+
+#mainNav li :hover{
+    background: slategray;
+}
+
+#mainHeader {
+    text-align: center;
+    padding-top: 2px;
+    font-weight: 300;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#mainHeader a {
+    color: #2F4277;
+    text-decoration: none;
+}
+
+#mainHeader h1 {
+    font-size: 2em;
+}
+
+#mainHeader h4 {
+    font-size: .6em;
+}
+
+hr {
+    border: 1px solid #2F4277;
+}
+
+#Greeting {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Greeting  .DDGM{
+    float: right;
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+}
+#Greeting p{
+    margin-right: 40%;
+}
+
+#Objectives {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#Objectives ol{
+    display: flex;
+    flex-flow: column wrap;
+    height: 18em;
+}
+
+#Objectives li{
+    text-align: left;
+    padding: 1em;
+    margin: 2px;
+}
+
+#Closing{
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#Lodges .Lodge {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border: 15px solid #2F4277;
+    border-bottom: 75px solid #2F4277;
+    margin-inline: 6.75%;
+}
+
+#mainFooter {
+    text-align: center;
+    padding: 10px;
+}
