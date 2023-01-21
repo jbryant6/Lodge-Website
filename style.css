@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    background: #DFD99C;
+    color: #2F4277;
+}
+
+#mainNav {
+    background: #2F4277;
+    color: #DFD99C;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    text-align: right;
+}
+
+#mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#mainNav li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+#mainNav a {
+    color: #DFD99C;
+    text-decoration: none;
+}
+
+#mainNav li :hover{
+    background: slategray;
+}
+
+#mainHeader {
+    text-align: center;
+    padding-top: 2px;
+    font-weight: 300;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#mainHeader a {
+    color: #2F4277;
+    text-decoration: none;
+}
+
+#mainHeader h1 {
+    font-size: 2em;
+}
+
+#mainHeader h4 {
+    font-size: .6em;
+}
+
+hr {
+    border: 1px solid #2F4277;
+}
+
+#Greeting {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-inline: 5px ;
+}
+
+#Greeting  .DDGM{
+    float: left;
+    /* float: right; */
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    margin-right:10px; 
+
+}
+#Greeting p{
+    /* margin-right: 43.2%; 
+    margin-left: 43.2%; */
+    /* margin-right: 30%; 
+    margin-left: 30%;  */
+    margin-right:650px; 
+    margin-left:650px; 
+}
+
+#Objectives {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#Objectives ol{
+    display: flex;
+    flex-flow: column wrap;
+    height: 18em;
+}
+
+#Objectives li{
+    text-align: left;
+    padding: 1em;
+    margin: 2px;
+}
+
+#Closing{
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+#Lodges .Lodge {
+    flex: 33.33%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border: 15px solid #2F4277;
+    border-bottom: 75px solid #2F4277;
+    margin-inline: 260px;
+}
+
+#Lodges .container{
+    display: flex;
+}
+
+#Lodges h3 {
+    text-align: center;
+    margin-top: -75px;
+    margin-inline: 260px;
+}
+
+#Lodges a{
+    text-decoration: none;
+    color: #DFD99C;
+}
+
+#Lodges p{
+    text-align: center;
+    color: #DFD99C;
+    margin-top: -10px;
+}
+
+#mainFooter {
+    text-align: center;
+    padding: 10px;
+}
