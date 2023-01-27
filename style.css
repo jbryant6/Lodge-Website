@@ -10,6 +10,8 @@ body {
     margin: 0;
     background: #DFD99C;
     color: #2F4277;
+    height:auto;
+    width:auto;
 }
 
 #mainNav {
@@ -26,19 +28,31 @@ body {
     margin: 0;
     list-style: none;
 }
-
 #mainNav li {
-    display: inline;
+    display: inline-block;
     padding: 5px 10px;
+    position: relative;
 }
-
 #mainNav a {
+    display: block;
     color: #DFD99C;
     text-decoration: none;
 }
-
+#mainNav ul li ul.dropdown li{
+    display: block;
+}
+#mainNav ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
 #mainNav li :hover{
-    background: slategray;
+    background: khaki;
+}
+#mainNav ul li:hover ul.dropdown{
+    background: #2f4277;
+    display: block;
 }
 
 #mainHeader {
@@ -50,25 +64,25 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 #mainHeader a {
     color: #2F4277;
     text-decoration: none;
 }
-
 #mainHeader h1 {
     font-size: 2em;
 }
-
 #mainHeader h4 {
     font-size: .6em;
 }
-
 hr {
     border: 1px solid #2F4277;
 }
+h3 {
+    text-shadow: 1px 1px  white;
+}
 
 #Greeting {
+    text-align: center;
     font-size: 1.3em;
     display: flex;
     margin-left: 5%;
@@ -78,43 +92,44 @@ hr {
 
 #Greeting  img{
     float: left;
-    /* float: right; */
     height: 350px;
     width: 350px;
     border: 5px solid white;
     margin-right:10px; 
 }
 #Greeting p{
-    /* margin-right: 43.2%; 
-    margin-left: 43.2%; */
-    /* margin-right: 30%; 
-    margin-left: 30%;  */
     margin-right:650px; 
     margin-left:650px; 
 }
 
 #Objectives {
+    line-height: 1.5em;
     font-size: 1.5em;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+    padding-bottom: .1px;
+    border: 1px solid #2F4277;
+    max-height: 13em;
 }
 
 #Objectives ol{
     display: flex;
     flex-flow: column wrap;
-    height: 18em;
+    height: 13em;
 }
 
 #Objectives li{
     text-align: left;
-    padding: 1.5em;
+    padding: .5em;
     margin: 2px;
 }
 
+
 #Closing{
+    line-height: 1.1em;
     font-size: 1.5em;
-    text-align: justify;
+    text-align: center;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -161,4 +176,42 @@ hr {
 #introduction .container{
     border: 3px solid white;
     margin-right:10px; 
+}
+
+#content {
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 1em;
+}
+#content hr{
+    border: 1px solid white;
+}
+#content img{
+    float: left;
+    border: 2px solid white;
+}
+
+#list {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#list span {
+    font-weight: bold;
+}
+
+#history {
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 1.5em;
+}
+#history li{
+    padding-bottom: .5em;
+}
+
+
+#award {
+    text-align: center;
+}
+#award img{
+    border: 2px solid #2F4277;
 }
