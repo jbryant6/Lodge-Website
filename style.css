@@ -189,6 +189,7 @@ h3 {
 #content img{
     float: left;
     border: 2px solid white;
+    margin-right: 5px;
 }
 
 #list {
