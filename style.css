@@ -111,7 +111,6 @@ h3 {
     margin-right: 1%;
     text-align: center;
     padding-bottom: .1px;
-    border: 1px solid #2F4277;
     max-height: 13em;
 }
 
@@ -233,23 +232,9 @@ h3 {
         display: none;
     }
      #Objectives {
-        line-height: 1.0em;
-        padding-bottom: 1em;
-        border: none;
-        max-height: 15em;
+        display: none;
     }
-    
-    #Objectives ol{
-        display:grid;
-        flex-flow: nowrap;
-        height: 15em;
-    }
-    #Closing{
-        line-height: 1.0em;
-        margin-right: 10%;
-        margin-left: 10%;
-        padding-top: 55%;
-    }
+  
     #Greeting p{
         margin-right:1%; 
         margin-left:1%; 
@@ -257,7 +242,7 @@ h3 {
     #mainHeader {
         padding-top: 1%;
         font-weight: 200;
-        font-size: 200%;
+        font-size: 100%;
         margin-left: 5%;
         margin-right: 5%;
     } 
@@ -325,8 +310,6 @@ h3 {
         margin-right:7%; 
         margin-left:7%; 
     } 
-
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -415,10 +398,6 @@ h3 {
     #Lodges {
         margin-left: 10%;
     }
-    #Objectives {
-        border: 1px solid #2F4277
-    }
-
     #Greeting p{
         margin-right:25%; 
         margin-left:25%; 
