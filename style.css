@@ -135,29 +135,18 @@ h3 {
     margin-left: 10%;
 }
 
-#Lodges {
-    margin-left: 10%;
-}
 #Lodges .container{
     display: flex;
+    justify-content: center;
 }
 
 #Lodges .Lodge {
-    flex: 33.33%;
     display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
     height: 300px;
     width: 300px;
     border: 15px solid #2F4277;
     border-bottom: 75px solid #2F4277;
 }
- #Lodges .box1{
-    padding-right: 22%;
- }
- #Lodges .box2{
-    padding-right: 23.5%;
- }
 
 #Lodges h3 {
     text-align: center;
@@ -316,16 +305,9 @@ h3 {
 @media  screen and (min-width: 1200px) {
     #Lodges {
         display: inherit;
+        justify-content: center;
     }
-    #Lodges .box1{
-        padding-right: 1%;
-    }
-     #Lodges .box2{
-        padding-right: 1%;
-    }
-    #Lodges {
-        margin-left: 9%;
-    }
+
     #Greeting p{
         margin-right:10%; 
         margin-left:10%; 
@@ -336,26 +318,14 @@ h3 {
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media  screen and (min-width: 1400px) {
-    #Lodges .box1{
-        padding-right: 7%;
-    }
-     #Lodges .box2{
-        padding-right: 7%;
-    }
     #Lodges {
-        margin-left: 10%;
+        justify-content: center;
     }
     }
 
 @media  screen and (min-width: 1700px) {
-    #Lodges .box1{
-        padding-right: 12.5%;
-    }
-     #Lodges .box2{
-        padding-right: 11.75%;
-    }
     #Lodges {
-        margin-left: 10%;
+        justify-content: center;
     }
     #Objectives {
         line-height: 1.5em;
@@ -389,14 +359,8 @@ h3 {
     }
 }
 @media  screen and (min-width: 1900px) {
-    #Lodges .box1{
-        padding-right: 17.0vw;
-    }
-     #Lodges .box2{
-        padding-right: 16.5vw;
-    }
     #Lodges {
-        margin-left: 10%;
+        justify-content: center;
     }
     #Greeting p{
         margin-right:25%; 
@@ -415,7 +379,7 @@ h3 {
 
 
 
-}
+
 
   
 
